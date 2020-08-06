@@ -1,6 +1,12 @@
 # reascripts
  REAPER の ReaScript であそぶ。
 
+## 参考
+
+- [ReaScript API — Documentation](https://www.extremraym.com/cloud/reascript-doc/)
+- [REAPER API functions](https://www.reaper.fm/sdk/reascript/reascripthelp.html)
+- [python-reapy · PyPI](https://pypi.org/project/python-reapy/)
+
 ## 環境
 
 - Windows 10 2004
@@ -15,6 +21,8 @@
 
 ### 使いそうなAPI
 
+- RPR_GetProjectName
+- RPR_GetProjjectPath
 - RPR_GetLastMarkerAndCurRegion()
 - RPR_ShowConsoleMsg(str)
 - RPR_ShowMessageBox(str, 'title')
